@@ -1,0 +1,41 @@
+.Profile {
+    width: 100vw;
+    height: 100vh;
+   border: transparent;
+  }
+
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.Profile .page{
+    float: left;
+}
+
+.right{
+    width: 85%;
+    height: max-content;
+    background-color: transparent;
+}
+
+.ribbon{
+    background-color:white;
+    padding: 15px;
+
+}
+
+.ribbon a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    /* border: solid rgb(177, 177, 227); */
+    border-radius: 10px;
+    background-color: rgb(245, 245, 255);
+
+}

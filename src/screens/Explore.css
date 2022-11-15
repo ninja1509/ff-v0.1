@@ -1,0 +1,37 @@
+.Explore {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: lavender; */
+    
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    height: 100%; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: fit-content;
+    /* border: solid yellow; */
+  }
+  
+  .right {
+    width: 75%;
+    /* border: solid yellow; */
+    background-color: rgb(245, 250, 255);
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 

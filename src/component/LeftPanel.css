@@ -1,0 +1,33 @@
+.LeftPanel {
+    width: 100vw;
+    height: 100vh;
+    background-color: White;
+    float: left;
+    width: 15%;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+
+  .left{
+    /* border: solid; */
+    width: 15%;
+    height: 100%;
+  }
+
+  .panel{
+    margin: 10%;
+  }
+
+  .panel a{
+    font-size: 25px;
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 12px;
+    color: black;
+  }
